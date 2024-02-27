@@ -23,7 +23,6 @@
   }
   .section-1 img {
     margin-bottom: 20px;
-    border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .section-1 a {
@@ -33,7 +32,7 @@
     transition: transform 0.3s ease-in-out;
     padding: 10px;
     border-radius: 5px;
-    color: #fff;
+    color: darkred;
   }
   .section-1 a:hover {
     transform: translateY(-3px);
