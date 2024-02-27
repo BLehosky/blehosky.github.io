@@ -35,6 +35,5 @@
     color: darkred;
   }
   .section-1 a:hover {
-    transform: translateY(-3px);
-    transform: scale(1.2);
+    transform: translateY(-3px) scale(1.2);
   }
