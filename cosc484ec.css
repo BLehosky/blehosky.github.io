@@ -37,3 +37,6 @@
   .section-1 a:hover {
     transform: translateY(-3px) scale(1.2);
   }
+  ul {
+    list-style-type: none;
+  }
