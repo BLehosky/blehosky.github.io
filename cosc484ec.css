@@ -5,7 +5,7 @@
     gap: 20px;
     align-items: center;
     padding: 20px;
-    background-color: #000;
+    background-color: #333;
     border-radius: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 100vh;
@@ -29,6 +29,7 @@
   .section-1 .icons {
     display: flex;
     justify-content: center;
+    margin: 0 10px;
   }
   .section-1 a {
     background-color:antiquewhite;
@@ -41,4 +42,16 @@
   }
   .section-1 a:hover {
     transform: translateY(-3px) scale(1.2);
+  }
+  .courses li::before {
+    content: "\f518";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+  }
+  .projects li::before {
+    content: "\f542";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
   }
