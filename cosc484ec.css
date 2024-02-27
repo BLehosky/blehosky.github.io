@@ -27,5 +27,7 @@
     padding: 20px;
   }
   .section-1 a {
-    background-color:antiquewhite
+    background-color:antiquewhite;
+    margin-top: 10px;
+    
   }
